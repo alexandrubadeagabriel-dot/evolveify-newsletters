@@ -1,9 +1,8 @@
-[[redirects]]
-  from = "/"
-  to = "/index.html"
-  status = 200
+[build]
+  command = "echo 'Building site'"
+  publish = "."
 
 [[redirects]]
-  from = "/newsletters/*"
-  to = "/newsletters/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
