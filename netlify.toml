@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/newsletters/*"
+  to = "/newsletters/:splat"
+  status = 200
